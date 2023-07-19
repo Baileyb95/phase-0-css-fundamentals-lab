@@ -1,5 +1,27 @@
+h1{
+  text-align: center;
+}
+nav{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
 body {
-  width: 100%;
+  text-align: center;
   height: 100%;
   margin: 0;
+  font-size: 15px;
+  width: 100%;
+}
+
+section#featured-property > p{
+  margin: auto;
+  width: 800px;
+}
+
+section#details > div{
+  background-color: red;
+  float: left;
+  width: 25%;
+  text-align: center;
 }
